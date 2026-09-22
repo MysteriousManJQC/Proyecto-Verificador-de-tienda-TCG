@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Consultar disponibilidad de carta</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f9;
+            margin: 0;
+            padding: 20px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+        h2 {
+            color: #333;
+        }
+        .formulario {
+            background: #fff;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+            width: 100%;
+            max-width: 400px;
+            margin-bottom: 20px;
+        }
+        .campo {
+            margin-bottom: 15px;
+        }
+        .campo label {
+            display: block;
+            margin-bottom: 5px;
+            font-weight: bold;
+            color: #555;
+        }
+        .campo input, .campo select {
+            width: 100%;
+            padding: 8px;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+            box-sizing: border-box;
+        }
+        button {
+            width: 100%;
+            padding: 10px;
+            background-color: #007bff;
+            color: white;
+            border: none;
+            border-radius: 4px;
+            font-size: 16px;
+            cursor: pointer;
+        }
+        button:hover {
+            background-color: #0056b3;
+        }
+        .resultado-box {
+            background: #fff;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+            width: 100%;
+            max-width: 400px;
+            text-align: center;
+        }
+        .resultado-texto {
+            font-size: 1.1em;
+            font-weight: bold;
+            color: #333;
+            margin-bottom: 15px;
+        }
+        .imagen-carta {
+            max-width: 250px;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+        }
+        .sin-imagen {
+            color: gray;
+            font-size: 0.9em;
+        }
+    </style>
+</head>
+<body>
+
+    <h2>Verificador de Cartas TCG</h2>
+
+    <div class="formulario">
+        <form method="POST">
+            {% csrf_token %}
+            
+            <div class="campo">
+                <label>Juego de cartas:</label>
+                <select name="juego" required>
+                    <option value="pokemon">Pokémon TCG</option>
+                    <option value="yugioh">Yu-Gi-Oh!</option>
+                    <option value="magic">Magic: The Gathering</option>
+                </select>
+            </div>
+
+            <div class="campo">
+                <label>Nombre de la carta:</label>
+                <input type="text" name="nombre_carta" required>
+            </div>
+            
+            <div class="campo">
+                <label>Expansión:</label>
+                <input type="text" name="expansion" required>
+            </div>
+            
+            <div class="campo">
+                <label>Cantidad a vender:</label>
+                <input type="number" name="cantidad_solicitada" min="1" required>
+            </div>
+            
+            <button type="submit">Consultar</button>
+        </form>
+    </div>
+
+    <!-- Zona de resultado -->
+    {% if resultado %}
+        <div class="resultado-box">
+            <h3>Resultado de la consulta:</h3>
+            <p class="resultado-texto">{{ resultado }}</p>
+            
+            <!-- Zona de imagen -->
+            {% if imagen_url %}
+                <div>
+                    <img src="{{ imagen_url }}" alt="Imagen de la carta" class="imagen-carta">
+                </div>
+            {% else %}
+                <p class="sin-imagen">(No se encontró imagen para esta carta en la base de datos de la API)</p>
+            {% endif %}
+        </div>
+    {% endif %}
+
+</body>
+</html>
