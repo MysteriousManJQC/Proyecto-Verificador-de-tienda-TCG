@@ -1,4 +1,5 @@
 import requests
+<<<<<<< HEAD
 from functools import wraps
 from django.shortcuts import render, redirect, get_object_or_404
 from django.contrib.auth import authenticate, login, logout
@@ -161,31 +162,72 @@ def verificar_carta(request):
         precio_tcgplayer = obtener_precio_tcgplayer(nombre)
         tcgplayer_url = obtener_url_tcgplayer(nombre)
 
+=======
+from django.shortcuts import render
+from solucion import evaluar_disponibilidad
+
+def verificar_carta(request):
+    resultado = None
+    imagen_url = None
+    
+    if request.method == 'POST':
+        # 1. Capturar datos y limpiar espacios
+        juego = request.POST.get('juego')
+        nombre = request.POST.get('nombre_carta', '').strip()
+        expansion = request.POST.get('expansion', '').strip()
+        cantidad = int(request.POST.get('cantidad_solicitada', 0))
+        
+        # 2. Evaluar regla de negocio local
+        resultado = evaluar_disponibilidad(nombre, expansion, cantidad)
+
+        # 3. Consumir la API de imágenes según el juego
+>>>>>>> 414e181eddee75b0112ca15022d1bf61cc74b558
         try:
             cabeceras = {
                 'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36'
             }
+<<<<<<< HEAD
+=======
+            
+>>>>>>> 414e181eddee75b0112ca15022d1bf61cc74b558
             if juego == 'pokemon':
                 url = f'https://api.pokemontcg.io/v2/cards?q=name:"{nombre}"&pageSize=1'
                 respuesta = requests.get(url, headers=cabeceras, timeout=5)
                 if respuesta.status_code == 200:
                     datos = respuesta.json()
+<<<<<<< HEAD
                     if datos.get('data'):
                         imagen_url = datos['data'][0]['images']['small']
             elif juego == 'yugioh':
+=======
+                    if datos['data']:
+                        imagen_url = datos['data'][0]['images']['small']
+                        
+            elif juego == 'yugioh':
+                # API de YGOPRODeck (usa fname para búsquedas difusas/aproximadas)
+>>>>>>> 414e181eddee75b0112ca15022d1bf61cc74b558
                 url = f'https://db.ygoprodeck.com/api/v7/cardinfo.php?fname={nombre}'
                 respuesta = requests.get(url, headers=cabeceras, timeout=5)
                 if respuesta.status_code == 200:
                     datos = respuesta.json()
+<<<<<<< HEAD
                     if datos.get('data'):
                         imagen_url = datos['data'][0]['card_images'][0]['image_url_small']
             elif juego == 'magic':
+=======
+                    if datos['data']:
+                        imagen_url = datos['data'][0]['card_images'][0]['image_url_small']
+                        
+            elif juego == 'magic':
+                # API de Scryfall (usa fuzzy para búsquedas aproximadas)
+>>>>>>> 414e181eddee75b0112ca15022d1bf61cc74b558
                 url = f'https://api.scryfall.com/cards/named?fuzzy={nombre}'
                 respuesta = requests.get(url, headers=cabeceras, timeout=5)
                 if respuesta.status_code == 200:
                     datos = respuesta.json()
                     if 'image_uris' in datos:
                         imagen_url = datos['image_uris']['normal']
+<<<<<<< HEAD
         except Exception as e:
             print(f"--> Error al conectar con la API: {e}")
 
@@ -197,4 +239,13 @@ def verificar_carta(request):
         'imagen_url': imagen_url,
         'precio_tcgplayer': precio_tcgplayer,
         'tcgplayer_url': tcgplayer_url
+=======
+                        
+        except Exception as e:
+            print(f"--> Error al conectar con la API: {e}")
+
+    return render(request, 'resumen.html', {
+        'resultado': resultado,
+        'imagen_url': imagen_url
+>>>>>>> 414e181eddee75b0112ca15022d1bf61cc74b558
     })

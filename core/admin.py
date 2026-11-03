@@ -1,4 +1,5 @@
 from django.contrib import admin
+<<<<<<< HEAD
 from .models import Registro
 
 
@@ -13,3 +14,7 @@ class RegistroAdmin(admin.ModelAdmin):
     list_filter = ("expansion", "eliminado")
     search_fields = ("nombre_carta",)
     readonly_fields = ("fecha_eliminacion",)
+=======
+
+# Register your models here.
+>>>>>>> 414e181eddee75b0112ca15022d1bf61cc74b558

@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # 🃏 Verificador de Stock de Cartas TCG · API RESTful
 **Evaluación 3 (ES3) · Programación Back End (TI3V41)**  
 *INACAP* · **Estudiante:** Josue Quezada · **Docente:** Juan Pablo Díaz S.
@@ -192,3 +193,7 @@ Para enriquecer la experiencia y brindar información de valor de mercado real, 
 - De acuerdo a las instrucciones de la evaluación y al archivo `.gitignore`, **NO** se incluyen en la entrega `db.sqlite3` ni el archivo `.env`.
 - Todos los tokens en la documentación y pruebas se presentan truncados (`1c96d64d...`).
 - El comprimido de entrega final debe titularse `ES3_ApellidoNombre.zip` (ej. `ES3_QuezadaJosue.zip`).
+=======
+# Proyecto-Verificador-de-tienda-TCG
+Parte 1 del proyecto del semestre
+>>>>>>> 414e181eddee75b0112ca15022d1bf61cc74b558

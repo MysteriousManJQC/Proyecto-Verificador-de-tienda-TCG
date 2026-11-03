@@ -23,7 +23,11 @@ SECRET_KEY = config('SECRET_KEY')  # <-- Modifica esta línea
 DEBUG = config('DEBUG', default=False, cast=bool)  # <-- Modifica esta línea
 
 
+<<<<<<< HEAD
 ALLOWED_HOSTS = ['*']
+=======
+ALLOWED_HOSTS = []
+>>>>>>> 414e181eddee75b0112ca15022d1bf61cc74b558
 
 
 # Application definition
@@ -35,9 +39,12 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
+<<<<<<< HEAD
     'rest_framework',
     'rest_framework.authtoken',
     'drf_spectacular',
+=======
+>>>>>>> 414e181eddee75b0112ca15022d1bf61cc74b558
     'core',
 ]
 
@@ -63,16 +70,22 @@ TEMPLATES = [
                 'django.template.context_processors.request',
                 'django.contrib.auth.context_processors.auth',
                 'django.contrib.messages.context_processors.messages',
+<<<<<<< HEAD
                 'core.context_processors.roles_context',
+=======
+>>>>>>> 414e181eddee75b0112ca15022d1bf61cc74b558
             ],
         },
     },
 ]
 
+<<<<<<< HEAD
 LOGIN_URL = 'login'
 LOGIN_REDIRECT_URL = 'lista'
 LOGOUT_REDIRECT_URL = 'login'
 
+=======
+>>>>>>> 414e181eddee75b0112ca15022d1bf61cc74b558
 WSGI_APPLICATION = 'miproyecto.wsgi.application'
 
 
@@ -109,7 +122,11 @@ AUTH_PASSWORD_VALIDATORS = [
 # Internationalization
 # https://docs.djangoproject.com/en/5.2/topics/i18n/
 
+<<<<<<< HEAD
 LANGUAGE_CODE = 'es-cl'
+=======
+LANGUAGE_CODE = 'en-us'
+>>>>>>> 414e181eddee75b0112ca15022d1bf61cc74b558
 
 TIME_ZONE = 'UTC'
 
@@ -127,6 +144,7 @@ STATIC_URL = 'static/'
 # https://docs.djangoproject.com/en/5.2/ref/settings/#default-auto-field
 
 DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
+<<<<<<< HEAD
 
 
 # ── Django REST Framework Configuration (Criterio 3.1.1) ──
@@ -149,3 +167,5 @@ SPECTACULAR_SETTINGS = {
     "VERSION": "1.0.0",
     "SERVE_INCLUDE_SCHEMA": False,
 }
+=======
+>>>>>>> 414e181eddee75b0112ca15022d1bf61cc74b558

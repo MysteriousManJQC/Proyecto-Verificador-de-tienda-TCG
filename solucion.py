@@ -1,4 +1,5 @@
 import json
+<<<<<<< HEAD
 from pathlib import Path
 
 BASE_DIR = Path(__file__).resolve().parent
@@ -7,6 +8,12 @@ STOCK_FILE = BASE_DIR / "stock.json"
 def evaluar_disponibilidad(nombre_carta, expansion, cantidad_solicitada):
     try:
         with open(STOCK_FILE, 'r', encoding='utf-8') as archivo:
+=======
+
+def evaluar_disponibilidad(nombre_carta, expansion, cantidad_solicitada):
+    try:
+        with open('stock.json', 'r', encoding='utf-8') as archivo:
+>>>>>>> 414e181eddee75b0112ca15022d1bf61cc74b558
             inventario = json.load(archivo)
     except FileNotFoundError:
         return " Error: No se encontró el archivo stock.json."

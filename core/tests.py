@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 from django.test import TestCase, Client
 from django.contrib.auth.models import User, Group
 from django.urls import reverse
@@ -452,3 +453,8 @@ class APIRestfulTest(TestCase):
         self.assertIn("imagen_url", resp.data)
         self.assertTrue(len(resp.data["precio_tcgplayer"]) > 0)
         self.assertTrue(resp.data["tcgplayer_url"].startswith("http"))
+=======
+from django.test import TestCase
+
+# Create your tests here.
+>>>>>>> 414e181eddee75b0112ca15022d1bf61cc74b558

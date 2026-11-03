@@ -1,4 +1,5 @@
 from django.db import models
+<<<<<<< HEAD
 from django.utils import timezone
 
 
@@ -73,3 +74,7 @@ class Registro(models.Model):
         """Enlace a la publicación oficial del producto en TCGplayer."""
         from .utils import obtener_url_tcgplayer
         return obtener_url_tcgplayer(self.nombre_carta)
+=======
+
+# Create your models here.
+>>>>>>> 414e181eddee75b0112ca15022d1bf61cc74b558
