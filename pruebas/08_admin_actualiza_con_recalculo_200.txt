@@ -1,0 +1,15 @@
+=== PETICIÓN ===
+curl -X PATCH http://127.0.0.1:8000/api/registros/101/ \
+  -H "Authorization: Token 1c96d64d..." \
+  -H "Content-Type: application/json" \
+  -d '{"cantidad_solicitada": 99}'
+
+=== RESPUESTA (HTTP 200 OK) ===
+{
+  "id": 101,
+  "nombre_carta": "Pikachu",
+  "expansion": "Crown Zenith",
+  "cantidad_solicitada": 99,
+  "resultado": "Stock insuficiente. Disponible: 25.",
+  "fecha": "2026-11-02T16:00:00Z"
+}

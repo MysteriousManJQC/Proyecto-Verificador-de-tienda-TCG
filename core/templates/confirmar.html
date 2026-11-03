@@ -1,0 +1,33 @@
+{% extends "base.html" %}
+
+{% block titulo %}Confirmar eliminación - Verificador TCG{% endblock %}
+
+{% block contenido %}
+<div class="row justify-content-center">
+    <div class="col-md-6">
+        <div class="card shadow border-danger">
+            <div class="card-header bg-danger text-white">
+                <h3 class="mb-0">⚠️ Confirmar eliminación</h3>
+            </div>
+            <div class="card-body">
+                <p>¿Estás seguro de que deseas eliminar el siguiente registro?</p>
+                
+                <div class="alert alert-secondary">
+                    <strong>Carta:</strong> {{ registro.nombre_carta }}<br>
+                    <strong>Expansión:</strong> {{ registro.expansion }}<br>
+                    <strong>Cantidad:</strong> {{ registro.cantidad_solicitada }}<br>
+                    <strong>Resultado:</strong> {{ registro.resultado }}
+                </div>
+
+                <form method="POST">
+                    {% csrf_token %}
+                    <div class="d-flex gap-2">
+                        <button type="submit" class="btn btn-danger">🗑️ Sí, eliminar</button>
+                        <a href="{% url 'lista' %}" class="btn btn-secondary">Cancelar</a>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+</div>
+{% endblock %}

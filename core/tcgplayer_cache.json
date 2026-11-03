@@ -1,0 +1,462 @@
+{
+  "Charizard": {
+    "precio_usd": "189.99",
+    "imagen_url": null,
+    "tcgplayer_url": "https://www.tcgplayer.com/search/all/product?q=Charizard"
+  },
+  "Pikachu": {
+    "precio_usd": "4.50",
+    "imagen_url": null,
+    "tcgplayer_url": "https://www.tcgplayer.com/search/all/product?q=Pikachu"
+  },
+  "Rayquaza": {
+    "precio_usd": "14.00",
+    "imagen_url": null,
+    "tcgplayer_url": "https://www.tcgplayer.com/search/all/product?q=Rayquaza"
+  },
+  "Mewtwo": {
+    "precio_usd": "22.50",
+    "imagen_url": null,
+    "tcgplayer_url": "https://www.tcgplayer.com/search/all/product?q=Mewtwo"
+  },
+  "Blastoise": {
+    "precio_usd": "75.00",
+    "imagen_url": null,
+    "tcgplayer_url": "https://www.tcgplayer.com/search/all/product?q=Blastoise"
+  },
+  "Venusaur": {
+    "precio_usd": "55.00",
+    "imagen_url": null,
+    "tcgplayer_url": "https://www.tcgplayer.com/search/all/product?q=Venusaur"
+  },
+  "Gengar": {
+    "precio_usd": "0.34",
+    "imagen_url": "https://cards.scryfall.io/small/front/9/e/9e6aba35-bee5-4058-a2df-d73506d225c2.jpg?1783911275",
+    "tcgplayer_url": "https://partner.tcgplayer.com/c/4931599/1830156/21018?subId1=api&u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F552994%3Fpage%3D1"
+  },
+  "Lugia": {
+    "precio_usd": "115.00",
+    "imagen_url": null,
+    "tcgplayer_url": "https://www.tcgplayer.com/search/all/product?q=Lugia"
+  },
+  "Ho-Oh": {
+    "precio_usd": "85.00",
+    "imagen_url": null,
+    "tcgplayer_url": "https://www.tcgplayer.com/search/all/product?q=Ho-Oh"
+  },
+  "Umbreon": {
+    "precio_usd": "145.00",
+    "imagen_url": null,
+    "tcgplayer_url": "https://www.tcgplayer.com/search/all/product?q=Umbreon"
+  },
+  "Espeon": {
+    "precio_usd": "18.00",
+    "imagen_url": null,
+    "tcgplayer_url": "https://www.tcgplayer.com/search/all/product?q=Espeon"
+  },
+  "Snorlax": {
+    "precio_usd": "6.00",
+    "imagen_url": null,
+    "tcgplayer_url": "https://www.tcgplayer.com/search/all/product?q=Snorlax"
+  },
+  "Alakazam": {
+    "precio_usd": "12.00",
+    "imagen_url": null,
+    "tcgplayer_url": "https://www.tcgplayer.com/search/all/product?q=Alakazam"
+  },
+  "Lucario": {
+    "precio_usd": "5.50",
+    "imagen_url": null,
+    "tcgplayer_url": "https://www.tcgplayer.com/search/all/product?q=Lucario"
+  },
+  "Garchomp": {
+    "precio_usd": "4.50",
+    "imagen_url": null,
+    "tcgplayer_url": "https://www.tcgplayer.com/search/all/product?q=Garchomp"
+  },
+  "Zoroark": {
+    "precio_usd": "3.50",
+    "imagen_url": null,
+    "tcgplayer_url": "https://www.tcgplayer.com/search/all/product?q=Zoroark"
+  },
+  "Reshiram": {
+    "precio_usd": "7.00",
+    "imagen_url": null,
+    "tcgplayer_url": "https://www.tcgplayer.com/search/all/product?q=Reshiram"
+  },
+  "Zekrom": {
+    "precio_usd": "6.50",
+    "imagen_url": null,
+    "tcgplayer_url": "https://www.tcgplayer.com/search/all/product?q=Zekrom"
+  },
+  "Greninja": {
+    "precio_usd": "12.50",
+    "imagen_url": null,
+    "tcgplayer_url": "https://www.tcgplayer.com/search/all/product?q=Greninja"
+  },
+  "Decidueye": {
+    "precio_usd": "2.80",
+    "imagen_url": null,
+    "tcgplayer_url": "https://www.tcgplayer.com/search/all/product?q=Decidueye"
+  },
+  "Zacian": {
+    "precio_usd": "4.00",
+    "imagen_url": null,
+    "tcgplayer_url": "https://www.tcgplayer.com/search/all/product?q=Zacian"
+  },
+  "Zamazenta": {
+    "precio_usd": "3.80",
+    "imagen_url": null,
+    "tcgplayer_url": "https://www.tcgplayer.com/search/all/product?q=Zamazenta"
+  },
+  "Terapagos": {
+    "precio_usd": "9.50",
+    "imagen_url": null,
+    "tcgplayer_url": "https://www.tcgplayer.com/search/all/product?q=Terapagos"
+  },
+  "Bulbasaur": {
+    "precio_usd": "3.00",
+    "imagen_url": null,
+    "tcgplayer_url": "https://www.tcgplayer.com/search/all/product?q=Bulbasaur"
+  },
+  "Squirtle": {
+    "precio_usd": "3.50",
+    "imagen_url": null,
+    "tcgplayer_url": "https://www.tcgplayer.com/search/all/product?q=Squirtle"
+  },
+  "Charmander": {
+    "precio_usd": "4.00",
+    "imagen_url": null,
+    "tcgplayer_url": "https://www.tcgplayer.com/search/all/product?q=Charmander"
+  },
+  "Eevee": {
+    "precio_usd": "5.00",
+    "imagen_url": null,
+    "tcgplayer_url": "https://www.tcgplayer.com/search/all/product?q=Eevee"
+  },
+  "Blue-Eyes White Dragon": {
+    "precio_usd": "0.14",
+    "imagen_url": "https://images.ygoprodeck.com/images/cards_small/89631139.jpg",
+    "tcgplayer_url": "https://www.tcgplayer.com/search/yugioh/product?q=Blue-Eyes+White+Dragon"
+  },
+  "Dark Magician": {
+    "precio_usd": "0.33",
+    "imagen_url": "https://images.ygoprodeck.com/images/cards_small/46986414.jpg",
+    "tcgplayer_url": "https://www.tcgplayer.com/search/yugioh/product?q=Dark+Magician"
+  },
+  "Pot of Greed": {
+    "precio_usd": "4.38",
+    "imagen_url": "https://images.ygoprodeck.com/images/cards_small/55144522.jpg",
+    "tcgplayer_url": "https://www.tcgplayer.com/search/yugioh/product?q=Pot+of+Greed"
+  },
+  "Red-Eyes Black Dragon": {
+    "precio_usd": "0.51",
+    "imagen_url": "https://images.ygoprodeck.com/images/cards_small/55343236.jpg",
+    "tcgplayer_url": "https://www.tcgplayer.com/search/yugioh/product?q=Red-Eyes+Black+Dragon"
+  },
+  "Exodia the Forbidden One": {
+    "precio_usd": "2.64",
+    "imagen_url": "https://images.ygoprodeck.com/images/cards_small/33396948.jpg",
+    "tcgplayer_url": "https://www.tcgplayer.com/search/yugioh/product?q=Exodia+the+Forbidden+One"
+  },
+  "Monster Reborn": {
+    "precio_usd": "0.20",
+    "imagen_url": "https://images.ygoprodeck.com/images/cards_small/83764719.jpg",
+    "tcgplayer_url": "https://www.tcgplayer.com/search/yugioh/product?q=Monster+Reborn"
+  },
+  "Mystical Space Typhoon": {
+    "precio_usd": "0.26",
+    "imagen_url": "https://images.ygoprodeck.com/images/cards_small/5318639.jpg",
+    "tcgplayer_url": "https://www.tcgplayer.com/search/yugioh/product?q=Mystical+Space+Typhoon"
+  },
+  "Dark Magician Girl": {
+    "precio_usd": "0.44",
+    "imagen_url": "https://images.ygoprodeck.com/images/cards_small/38033121.jpg",
+    "tcgplayer_url": "https://www.tcgplayer.com/search/yugioh/product?q=Dark+Magician+Girl"
+  },
+  "Jinzo": {
+    "precio_usd": "0.25",
+    "imagen_url": "https://images.ygoprodeck.com/images/cards_small/300302011.jpg",
+    "tcgplayer_url": "https://www.tcgplayer.com/search/yugioh/product?q=Jinzo"
+  },
+  "Cyber Dragon": {
+    "precio_usd": "0.21",
+    "imagen_url": "https://images.ygoprodeck.com/images/cards_small/70095154.jpg",
+    "tcgplayer_url": "https://www.tcgplayer.com/search/yugioh/product?q=Cyber+Dragon"
+  },
+  "Stardust Dragon": {
+    "precio_usd": "0.24",
+    "imagen_url": "https://images.ygoprodeck.com/images/cards_small/30983281.jpg",
+    "tcgplayer_url": "https://www.tcgplayer.com/search/yugioh/product?q=Stardust+Dragon"
+  },
+  "Black Rose Dragon": {
+    "precio_usd": "0.25",
+    "imagen_url": "https://cards.scryfall.io/small/front/a/a/aaca283a-39f1-4ae7-98fb-7821a927ef86.jpg?1783926500",
+    "tcgplayer_url": "https://partner.tcgplayer.com/c/4931599/1830156/21018?subId1=api&u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F243074%3Fpage%3D1"
+  },
+  "Elemental HERO Neos": {
+    "precio_usd": "0.19",
+    "imagen_url": "https://images.ygoprodeck.com/images/cards_small/89943723.jpg",
+    "tcgplayer_url": "https://www.tcgplayer.com/search/yugioh/product?q=Elemental+HERO+Neos"
+  },
+  "Kuriboh": {
+    "precio_usd": "0.00",
+    "imagen_url": "https://images.ygoprodeck.com/images/cards_small/595626.jpg",
+    "tcgplayer_url": "https://www.tcgplayer.com/search/yugioh/product?q=Kuriboh"
+  },
+  "Mirror Force": {
+    "precio_usd": "1.33",
+    "imagen_url": "https://cards.scryfall.io/small/front/5/5/55d30256-f5d8-4f61-a3f5-878970ced6d1.jpg?1783904485",
+    "tcgplayer_url": "https://partner.tcgplayer.com/c/4931599/1830156/21018?subId1=api&u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F671003%3Fpage%3D1"
+  },
+  "Solemn Judgment": {
+    "precio_usd": "1.18",
+    "imagen_url": "https://images.ygoprodeck.com/images/cards_small/41420027.jpg",
+    "tcgplayer_url": "https://www.tcgplayer.com/search/yugioh/product?q=Solemn+Judgment"
+  },
+  "Raigeki": {
+    "precio_usd": "0.32",
+    "imagen_url": "https://images.ygoprodeck.com/images/cards_small/42364257.jpg",
+    "tcgplayer_url": "https://www.tcgplayer.com/search/yugioh/product?q=Raigeki"
+  },
+  "Harpie's Feather Duster": {
+    "precio_usd": "0.87",
+    "imagen_url": "https://images.ygoprodeck.com/images/cards_small/18144507.jpg",
+    "tcgplayer_url": "https://www.tcgplayer.com/search/yugioh/product?q=Harpie%27s+Feather+Duster"
+  },
+  "Tour Guide From the Underworld": {
+    "precio_usd": "0.30",
+    "imagen_url": "https://images.ygoprodeck.com/images/cards_small/10802915.jpg",
+    "tcgplayer_url": "https://www.tcgplayer.com/search/yugioh/product?q=Tour+Guide+From+the+Underworld"
+  },
+  "Ash Blossom & Joyous Spring": {
+    "precio_usd": "0.41",
+    "imagen_url": "https://images.ygoprodeck.com/images/cards_small/14558127.jpg",
+    "tcgplayer_url": "https://www.tcgplayer.com/search/yugioh/product?q=Ash+Blossom+%26+Joyous+Spring"
+  },
+  "Effect Veiler": {
+    "precio_usd": "0.26",
+    "imagen_url": "https://images.ygoprodeck.com/images/cards_small/97268402.jpg",
+    "tcgplayer_url": "https://www.tcgplayer.com/search/yugioh/product?q=Effect+Veiler"
+  },
+  "Infinite Impermanence": {
+    "precio_usd": "0.39",
+    "imagen_url": "https://images.ygoprodeck.com/images/cards_small/10045474.jpg",
+    "tcgplayer_url": "https://www.tcgplayer.com/search/yugioh/product?q=Infinite+Impermanence"
+  },
+  "Nibiru, the Primal Being": {
+    "precio_usd": "0.18",
+    "imagen_url": "https://images.ygoprodeck.com/images/cards_small/27204311.jpg",
+    "tcgplayer_url": "https://www.tcgplayer.com/search/yugioh/product?q=Nibiru%2C+the+Primal+Being"
+  },
+  "Accesscode Talker": {
+    "precio_usd": "0.24",
+    "imagen_url": "https://images.ygoprodeck.com/images/cards_small/86066372.jpg",
+    "tcgplayer_url": "https://www.tcgplayer.com/search/yugioh/product?q=Accesscode+Talker"
+  },
+  "Apollousa, Bow of the Goddess": {
+    "precio_usd": "0.23",
+    "imagen_url": "https://images.ygoprodeck.com/images/cards_small/4280258.jpg",
+    "tcgplayer_url": "https://www.tcgplayer.com/search/yugioh/product?q=Apollousa%2C+Bow+of+the+Goddess"
+  },
+  "Obelisk the Tormentor": {
+    "precio_usd": "0.61",
+    "imagen_url": "https://images.ygoprodeck.com/images/cards_small/10000000.jpg",
+    "tcgplayer_url": "https://www.tcgplayer.com/search/yugioh/product?q=Obelisk+the+Tormentor"
+  },
+  "Slifer the Sky Dragon": {
+    "precio_usd": "0.69",
+    "imagen_url": "https://images.ygoprodeck.com/images/cards_small/10000020.jpg",
+    "tcgplayer_url": "https://www.tcgplayer.com/search/yugioh/product?q=Slifer+the+Sky+Dragon"
+  },
+  "The Winged Dragon of Ra": {
+    "precio_usd": "1.14",
+    "imagen_url": "https://images.ygoprodeck.com/images/cards_small/10000010.jpg",
+    "tcgplayer_url": "https://www.tcgplayer.com/search/yugioh/product?q=The+Winged+Dragon+of+Ra"
+  },
+  "Breaker the Magical Warrior": {
+    "precio_usd": "0.54",
+    "imagen_url": "https://images.ygoprodeck.com/images/cards_small/71413901.jpg",
+    "tcgplayer_url": "https://www.tcgplayer.com/search/yugioh/product?q=Breaker+the+Magical+Warrior"
+  },
+  "Magician of Faith": {
+    "precio_usd": "0.51",
+    "imagen_url": "https://images.ygoprodeck.com/images/cards_small/31560081.jpg",
+    "tcgplayer_url": "https://www.tcgplayer.com/search/yugioh/product?q=Magician+of+Faith"
+  },
+  "Sangan": {
+    "precio_usd": "0.27",
+    "imagen_url": "https://cards.scryfall.io/small/front/0/2/02eff0d6-3170-4b5a-bb00-a3372ad62d6a.jpg?1790688553",
+    "tcgplayer_url": "https://www.tcgplayer.com/search/yugioh/product?q=Sangan"
+  },
+  "Change of Heart": {
+    "precio_usd": "0.21",
+    "imagen_url": "https://cards.scryfall.io/small/front/a/f/afaf277e-b430-4c96-880c-ae654973478c.jpg?1783946575",
+    "tcgplayer_url": "https://partner.tcgplayer.com/c/4931599/1830156/21018?subId1=api&u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F5319%3Fpage%3D1"
+  },
+  "Heavy Storm": {
+    "precio_usd": "1.86",
+    "imagen_url": "https://images.ygoprodeck.com/images/cards_small/19613556.jpg",
+    "tcgplayer_url": "https://www.tcgplayer.com/search/yugioh/product?q=Heavy+Storm"
+  },
+  "Black Lotus": {
+    "precio_usd": "14999.00",
+    "imagen_url": "https://cards.scryfall.io/small/front/b/d/bd8fa327-dd41-4737-8f19-2cf5eb1f7cdd.jpg?1783939332",
+    "tcgplayer_url": "https://partner.tcgplayer.com/c/4931599/1830156/21018?subId1=api&u=https%3A%2F%2Fwww.tcgplayer.com%2Fsearch%2Fmagic%2Fproduct%3FproductLineName%3Dmagic%26q%3DBlack%2BLotus%26view%3Dgrid"
+  },
+  "Jace, the Mind Sculptor": {
+    "precio_usd": "24.40",
+    "imagen_url": "https://cards.scryfall.io/small/front/c/8/c8817585-0d32-4d56-9142-0d29512e86a9.jpg?1783930196",
+    "tcgplayer_url": "https://partner.tcgplayer.com/c/4931599/1830156/21018?subId1=api&u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F218277%3Fpage%3D1"
+  },
+  "Lightning Bolt": {
+    "precio_usd": "0.88",
+    "imagen_url": "https://cards.scryfall.io/small/front/7/6/7673784e-db4b-43a1-8d55-1bb9fc1e284f.jpg?1783903008",
+    "tcgplayer_url": "https://partner.tcgplayer.com/c/4931599/1830156/21018?subId1=api&u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F697344%3Fpage%3D1"
+  },
+  "Birds of Paradise": {
+    "precio_usd": "8.66",
+    "imagen_url": "https://cards.scryfall.io/small/front/4/9/492c2f9a-51e7-4e0f-9899-23bf43ea988b.jpg?1783903230",
+    "tcgplayer_url": "https://partner.tcgplayer.com/c/4931599/1830156/21018?subId1=api&u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F698193%3Fpage%3D1"
+  },
+  "Tarmogoyf": {
+    "precio_usd": "1.20",
+    "imagen_url": "https://cards.scryfall.io/small/front/8/b/8be5ee47-8f8a-4e3c-b1a1-9ca0e1fdec7f.jpg?1789127270",
+    "tcgplayer_url": "https://partner.tcgplayer.com/c/4931599/1830156/21018?subId1=api&u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F716686%3Fpage%3D1"
+  },
+  "Liliana of the Veil": {
+    "precio_usd": "7.68",
+    "imagen_url": "https://cards.scryfall.io/small/front/e/f/efbb7256-9337-4183-8bda-a419f3f2c501.jpg?1783907977",
+    "tcgplayer_url": "https://partner.tcgplayer.com/c/4931599/1830156/21018?subId1=api&u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F600472%3Fpage%3D1"
+  },
+  "Force of Will": {
+    "precio_usd": "58.52",
+    "imagen_url": "https://cards.scryfall.io/small/front/8/9/89f612d6-7c59-4a7b-a87d-45f789e88ba5.jpg?1789015964",
+    "tcgplayer_url": "https://partner.tcgplayer.com/c/4931599/1830156/21018?subId1=api&u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F449583%3Fpage%3D1"
+  },
+  "Brainstorm": {
+    "precio_usd": "2.50",
+    "imagen_url": "https://cards.scryfall.io/small/front/1/e/1ede3080-8c47-48a0-b757-92c3fa91fac0.jpg?1793281332",
+    "tcgplayer_url": "https://partner.tcgplayer.com/c/4931599/1830156/21018?subId1=api&u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F727615%3Fpage%3D1"
+  },
+  "Sol Ring": {
+    "precio_usd": "2.50",
+    "imagen_url": "https://cards.scryfall.io/small/front/f/c/fc817e07-c1f3-469f-9cf7-0945dea7400f.jpg?1793021181",
+    "tcgplayer_url": "https://partner.tcgplayer.com/c/4931599/1830156/21018?subId1=api&u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F726040%3Fpage%3D1"
+  },
+  "Mana Crypt": {
+    "precio_usd": "37.50",
+    "imagen_url": "https://cards.scryfall.io/small/front/4/d/4d960186-4559-4af0-bd22-63baa15f8939.jpg?1783930103",
+    "tcgplayer_url": "https://partner.tcgplayer.com/c/4931599/1830156/21018?subId1=api&u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F214835%3Fpage%3D1"
+  },
+  "Blood Moon": {
+    "precio_usd": "7.05",
+    "imagen_url": "https://cards.scryfall.io/small/front/d/0/d072e9ca-aae7-45dc-8025-3ce590bae63f.jpg?1783930171",
+    "tcgplayer_url": "https://partner.tcgplayer.com/c/4931599/1830156/21018?subId1=api&u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F218848%3Fpage%3D1"
+  },
+  "Swords to Plowshares": {
+    "precio_usd": "4.99",
+    "imagen_url": "https://cards.scryfall.io/small/front/4/6/4645eebf-c9fc-4ee7-b646-61dc1205b4b0.jpg?1793111861",
+    "tcgplayer_url": "https://partner.tcgplayer.com/c/4931599/1830156/21018?subId1=api&u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F726336%3Fpage%3D1"
+  },
+  "Counterspell": {
+    "precio_usd": "4.34",
+    "imagen_url": "https://cards.scryfall.io/small/front/4/f/4f616706-ec97-4923-bb1e-11a69fbaa1f8.jpg?1783909630",
+    "tcgplayer_url": "https://partner.tcgplayer.com/c/4931599/1830156/21018?subId1=api&u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F577794%3Fpage%3D1"
+  },
+  "Dark Ritual": {
+    "precio_usd": "8.06",
+    "imagen_url": "https://cards.scryfall.io/small/front/1/1/11e12a84-e7be-4afc-a230-c2e644743fa8.jpg?1783903013",
+    "tcgplayer_url": "https://partner.tcgplayer.com/c/4931599/1830156/21018?subId1=api&u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F696250%3Fpage%3D1"
+  },
+  "Thoughtseize": {
+    "precio_usd": "7.79",
+    "imagen_url": "https://cards.scryfall.io/small/front/b/2/b281a308-ab6b-47b6-bec7-632c9aaecede.jpg?1783930173",
+    "tcgplayer_url": "https://partner.tcgplayer.com/c/4931599/1830156/21018?subId1=api&u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F218934%3Fpage%3D1"
+  },
+  "Snapcaster Mage": {
+    "precio_usd": "16.51",
+    "imagen_url": "https://cards.scryfall.io/small/front/2/2/22b36ad5-bf4d-436a-9c3c-fa4acd0052fe.jpg?1783907976",
+    "tcgplayer_url": "https://partner.tcgplayer.com/c/4931599/1830156/21018?subId1=api&u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F600452%3Fpage%3D1"
+  },
+  "Chalice of the Void": {
+    "precio_usd": "16.41",
+    "imagen_url": "https://cards.scryfall.io/small/front/1/f/1f0d2e8e-c8f2-4b31-a6ba-6283fc8740d4.jpg?1783935107",
+    "tcgplayer_url": "https://partner.tcgplayer.com/c/4931599/1830156/21018?subId1=api&u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F161358%3Fpage%3D1"
+  },
+  "Mox Pearl": {
+    "precio_usd": "2850.00",
+    "imagen_url": "https://cards.scryfall.io/small/front/e/d/ed0216a0-c5c9-4a99-b869-53e4d0256326.jpg?1783939331",
+    "tcgplayer_url": "https://partner.tcgplayer.com/c/4931599/1830156/21018?subId1=api&u=https%3A%2F%2Fwww.tcgplayer.com%2Fsearch%2Fmagic%2Fproduct%3FproductLineName%3Dmagic%26q%3DMox%2BPearl%26view%3Dgrid"
+  },
+  "Mox Sapphire": {
+    "precio_usd": "4200.00",
+    "imagen_url": "https://cards.scryfall.io/small/front/e/a/ea1feac0-d3a7-45eb-9719-1cdaf51ea0b6.jpg?1783939328",
+    "tcgplayer_url": "https://partner.tcgplayer.com/c/4931599/1830156/21018?subId1=api&u=https%3A%2F%2Fwww.tcgplayer.com%2Fsearch%2Fmagic%2Fproduct%3FproductLineName%3Dmagic%26q%3DMox%2BSapphire%26view%3Dgrid"
+  },
+  "Mox Jet": {
+    "precio_usd": "3400.00",
+    "imagen_url": "https://cards.scryfall.io/small/front/5/f/5f6927e1-c580-483a-8e2a-6e2deb74800e.jpg?1783939331",
+    "tcgplayer_url": "https://partner.tcgplayer.com/c/4931599/1830156/21018?subId1=api&u=https%3A%2F%2Fwww.tcgplayer.com%2Fsearch%2Fmagic%2Fproduct%3FproductLineName%3Dmagic%26q%3DMox%2BJet%26view%3Dgrid"
+  },
+  "Mox Ruby": {
+    "precio_usd": "2900.00",
+    "imagen_url": "https://cards.scryfall.io/small/front/4/5/45fd6e91-df76-497f-b642-33dc3d5f6a5a.jpg?1783939329",
+    "tcgplayer_url": "https://partner.tcgplayer.com/c/4931599/1830156/21018?subId1=api&u=https%3A%2F%2Fwww.tcgplayer.com%2Fsearch%2Fmagic%2Fproduct%3FproductLineName%3Dmagic%26q%3DMox%2BRuby%26view%3Dgrid"
+  },
+  "Mox Emerald": {
+    "precio_usd": "2700.00",
+    "imagen_url": "https://cards.scryfall.io/small/front/a/c/aced2c55-7543-4076-bcdd-36c4d649b8ae.jpg?1783939332",
+    "tcgplayer_url": "https://partner.tcgplayer.com/c/4931599/1830156/21018?subId1=api&u=https%3A%2F%2Fwww.tcgplayer.com%2Fsearch%2Fmagic%2Fproduct%3FproductLineName%3Dmagic%26q%3DMox%2BEmerald%26view%3Dgrid"
+  },
+  "Time Walk": {
+    "precio_usd": "3800.00",
+    "imagen_url": "https://cards.scryfall.io/small/front/7/0/70901356-3266-4bd9-aacc-f06c27271de5.jpg?1783939332",
+    "tcgplayer_url": "https://partner.tcgplayer.com/c/4931599/1830156/21018?subId1=api&u=https%3A%2F%2Fwww.tcgplayer.com%2Fsearch%2Fmagic%2Fproduct%3FproductLineName%3Dmagic%26q%3DTime%2BWalk%26view%3Dgrid"
+  },
+  "Ancestral Recall": {
+    "precio_usd": "4500.00",
+    "imagen_url": "https://cards.scryfall.io/small/front/2/3/2398892d-28e9-4009-81ec-0d544af79d2b.jpg?1783939333",
+    "tcgplayer_url": "https://partner.tcgplayer.com/c/4931599/1830156/21018?subId1=api&u=https%3A%2F%2Fwww.tcgplayer.com%2Fsearch%2Fmagic%2Fproduct%3FproductLineName%3Dmagic%26q%3DAncestral%2BRecall%26view%3Dgrid"
+  },
+  "Teferi, Time Raveler": {
+    "precio_usd": "7.18",
+    "imagen_url": "https://cards.scryfall.io/small/front/6/6/662fe50f-d75c-422c-8c6c-1f9b5c4ba21f.jpg?1783913271",
+    "tcgplayer_url": "https://partner.tcgplayer.com/c/4931599/1830156/21018?subId1=api&u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F531057%3Fpage%3D1"
+  },
+  "Oko, Thief of Crowns": {
+    "precio_usd": "6.02",
+    "imagen_url": "https://cards.scryfall.io/small/front/3/4/3462a3d0-5552-49fa-9eb7-100960c55891.jpg?1791803810",
+    "tcgplayer_url": "https://partner.tcgplayer.com/c/4931599/1830156/21018?subId1=api&u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F198356%3Fpage%3D1"
+  },
+  "Uro, Titan of Nature's Wrath": {
+    "precio_usd": "2.55",
+    "imagen_url": "https://cards.scryfall.io/small/front/a/0/a0b6a71e-56cb-4d25-8f2b-7a4f1b60900d.jpg?1783931516",
+    "tcgplayer_url": "https://partner.tcgplayer.com/c/4931599/1830156/21018?subId1=api&u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F206836%3Fpage%3D1"
+  },
+  "Ragavan, Nimble Pilferer": {
+    "precio_usd": "40.19",
+    "imagen_url": "https://cards.scryfall.io/small/front/a/9/a9738cda-adb1-47fb-9f4c-ecd930228c4d.jpg?1791803835",
+    "tcgplayer_url": "https://partner.tcgplayer.com/c/4931599/1830156/21018?subId1=api&u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F239857%3Fpage%3D1"
+  },
+  "Sheoldred, the Apocalypse": {
+    "precio_usd": "102.22",
+    "imagen_url": "https://cards.scryfall.io/small/front/d/6/d67be074-cdd4-41d9-ac89-0a0456c4e4b2.jpg?1783921327",
+    "tcgplayer_url": "https://partner.tcgplayer.com/c/4931599/1830156/21018?subId1=api&u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F282800%3Fpage%3D1"
+  },
+  "The One Ring": {
+    "precio_usd": "108.03",
+    "imagen_url": "https://cards.scryfall.io/small/front/d/5/d5806e68-1054-458e-866d-1f2470f682b2.jpg?1790212038",
+    "tcgplayer_url": "https://partner.tcgplayer.com/c/4931599/1830156/21018?subId1=api&u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F487805%3Fpage%3D1"
+  },
+  "Orcish Bowmasters": {
+    "precio_usd": "37.65",
+    "imagen_url": "https://cards.scryfall.io/small/front/7/c/7c024bae-5631-4e20-ac69-df392ac9e109.jpg?1783916299",
+    "tcgplayer_url": "https://partner.tcgplayer.com/c/4931599/1830156/21018?subId1=api&u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F498367%3Fpage%3D1"
+  },
+  "Rhystic Study": {
+    "precio_usd": "67.31",
+    "imagen_url": "https://cards.scryfall.io/small/front/9/f/9f37c5b6-a59c-45cd-9a99-e9357fe9ea1b.jpg?1783919146",
+    "tcgplayer_url": "https://partner.tcgplayer.com/c/4931599/1830156/21018?subId1=api&u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F454994%3Fpage%3D1"
+  }
+}

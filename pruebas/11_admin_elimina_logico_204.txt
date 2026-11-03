@@ -1,0 +1,6 @@
+=== PETICIÓN ===
+curl -X DELETE http://127.0.0.1:8000/api/registros/101/ \
+  -H "Authorization: Token 1c96d64d..."
+
+=== RESPUESTA (HTTP 204 No Content) ===
+(Respuesta sin cuerpo - 204 No Content. En la base de datos SQLite el registro se preserva con eliminado=True y su respectiva fecha_eliminacion mediante soft delete).

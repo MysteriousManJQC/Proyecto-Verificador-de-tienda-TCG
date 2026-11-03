@@ -1,0 +1,15 @@
+=== PETICIÓN ===
+curl -X GET http://127.0.0.1:8000/api/docs/
+
+=== RESPUESTA (HTTP 200 OK) ===
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>API Verificador de Cartas TCG - Swagger UI</title>
+    <meta charset="utf-8"/>
+    ...
+  </head>
+  <body>
+    <div id="swagger-ui"></div>
+  </body>
+</html>

@@ -1,0 +1,8 @@
+=== PETICIÓN ===
+curl -X DELETE http://127.0.0.1:8000/api/registros/101/ \
+  -H "Authorization: Token dd496ff5..."
+
+=== RESPUESTA (HTTP 403 Forbidden) ===
+{
+  "detail": "Usted no tiene permiso para realizar esta acción."
+}

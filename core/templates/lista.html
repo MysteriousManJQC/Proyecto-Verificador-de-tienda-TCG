@@ -1,0 +1,121 @@
+{% extends "base.html" %}
+
+{% block titulo %}Registros - Verificador TCG{% endblock %}
+
+{% block contenido %}
+<style>
+    .tcg-thumb {
+        width: 44px;
+        height: 62px;
+        object-fit: cover;
+        border-radius: 4px;
+        transition: transform 0.25s cubic-bezier(0.175, 0.885, 0.32, 1.275), box-shadow 0.2s ease;
+        background-color: #212529;
+        display: block;
+        margin: 0 auto;
+    }
+    .tcg-thumb:hover {
+        transform: scale(3.8);
+        z-index: 1050;
+        position: relative;
+        box-shadow: 0 12px 30px rgba(0, 0, 0, 0.55) !important;
+        border: 2px solid #ffc107 !important;
+    }
+    .table td {
+        vertical-align: middle;
+    }
+    .badge-price {
+        background-color: #e8f5e9;
+        color: #1b5e20;
+        border: 1px solid #81c784;
+        font-family: monospace;
+        letter-spacing: 0.5px;
+        transition: all 0.2s ease;
+    }
+    .badge-price:hover {
+        background-color: #c8e6c9;
+        box-shadow: 0 2px 6px rgba(0,0,0,0.15);
+        transform: translateY(-1px);
+    }
+</style>
+
+<div class="d-flex justify-content-between align-items-center mb-3">
+    <div>
+        <h2 class="mb-1">📋 Registros de Consultas</h2>
+        <small class="text-muted">
+            🛒 Precios de mercado e ilustraciones sincronizados con la API de <strong>TCGplayer</strong>
+        </small>
+    </div>
+    {% if es_admin or es_normal %}
+        <a href="{% url 'crear' %}" class="btn btn-primary shadow-sm">➕ Nuevo Registro</a>
+    {% endif %}
+</div>
+
+{% if registros %}
+<div class="table-responsive">
+    <table class="table table-striped table-hover align-middle shadow-sm bg-white rounded">
+        <thead class="table-dark">
+            <tr>
+                <th>ID</th>
+                <th>Carta</th>
+                <th>Expansión</th>
+                <th class="text-center" style="width: 70px;">Imagen</th>
+                <th class="text-center" style="width: 90px;">Cantidad</th>
+                <th class="text-center" style="width: 140px;">Precio TCGplayer</th>
+                <th>Resultado</th>
+                <th>Fecha</th>
+                <th>Acciones</th>
+            </tr>
+        </thead>
+        <tbody>
+            {% for reg in registros %}
+            <tr>
+                <td>{{ reg.pk }}</td>
+                <td><strong>{{ reg.nombre_carta }}</strong></td>
+                <td><span class="text-muted">{{ reg.expansion }}</span></td>
+                <td class="text-center py-2">
+                    <a href="{{ reg.tcgplayer_url }}" target="_blank" title="Ver en TCGplayer: {{ reg.nombre_carta }}">
+                        <img src="{{ reg.imagen_url }}"
+                             alt="{{ reg.nombre_carta }}"
+                             class="tcg-thumb shadow-sm border"
+                             loading="lazy"
+                             onerror="this.onerror=null; this.src='https://placehold.co/44x62/212529/ffffff?text=TCG';"
+                             title="{{ reg.nombre_carta }} · {{ reg.expansion }} (Haz clic para ver en TCGplayer)">
+                    </a>
+                </td>
+                <td class="text-center">
+                    <span class="badge bg-light text-dark border px-3 py-2 fw-bold">
+                        {{ reg.cantidad_solicitada }}
+                    </span>
+                </td>
+                <td class="text-center">
+                    <a href="{{ reg.tcgplayer_url }}" target="_blank" class="text-decoration-none">
+                        <span class="badge badge-price px-2 py-2 fs-6 fw-bold shadow-sm d-inline-flex align-items-center gap-1">
+                            <span>US$ {{ reg.precio_tcgplayer }}</span>
+                            <span class="small" style="font-size: 0.65rem;">🔗</span>
+                        </span>
+                    </a>
+                </td>
+                <td>
+                    <span class="badge {% if 'Se puede vender' in reg.resultado %}bg-success{% elif 'Stock insuficiente' in reg.resultado %}bg-warning text-dark{% else %}bg-danger{% endif %} px-3 py-2">
+                        {{ reg.resultado }}
+                    </span>
+                </td>
+                <td class="small text-muted">{{ reg.fecha|date:"d/m/Y H:i" }}</td>
+                <td>
+                    {% if es_admin %}
+                        <a href="{% url 'editar' reg.pk %}" class="btn btn-warning btn-sm">✏️ Editar</a>
+                        <a href="{% url 'eliminar' reg.pk %}" class="btn btn-danger btn-sm">🗑️ Eliminar</a>
+                    {% else %}
+                        <span class="text-muted small">Solo lectura</span>
+                    {% endif %}
+                </td>
+            </tr>
+            {% endfor %}
+        </tbody>
+    </table>
+</div>
+{% else %}
+    <div class="alert alert-info">No hay registros activos. Puedes cargar el inventario con <code>python manage.py shell &lt; cargar_datos.py</code> o crear uno nuevo.</div>
+{% endif %}
+{% endblock %}

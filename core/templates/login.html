@@ -1,0 +1,32 @@
+{% extends "base.html" %}
+
+{% block titulo %}Iniciar sesión - Verificador TCG{% endblock %}
+
+{% block contenido %}
+<div class="row justify-content-center mt-5">
+    <div class="col-md-5">
+        <div class="card shadow">
+            <div class="card-header bg-dark text-white text-center py-3">
+                <h4 class="mb-0">🃏 Iniciar Sesión · Verificador TCG</h4>
+            </div>
+            <div class="card-body p-4">
+                <form method="POST">
+                    {% csrf_token %}
+
+                    <div class="mb-3">
+                        <label for="username" class="form-label fw-bold">Usuario</label>
+                        <input type="text" class="form-control" id="username" name="username" placeholder="Ingresa tu usuario" required autofocus>
+                    </div>
+
+                    <div class="mb-3">
+                        <label for="password" class="form-label fw-bold">Contraseña</label>
+                        <input type="password" class="form-control" id="password" name="password" placeholder="Ingresa tu contraseña" required>
+                    </div>
+
+                    <button type="submit" class="btn btn-primary w-100 py-2">Iniciar Sesión</button>
+                </form>
+            </div>
+        </div>
+    </div>
+</div>
+{% endblock %}

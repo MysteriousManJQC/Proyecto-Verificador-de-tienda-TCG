@@ -1,0 +1,7 @@
+=== PETICIÓN ===
+curl -X GET http://127.0.0.1:8000/api/registros/
+
+=== RESPUESTA (HTTP 401 Unauthorized) ===
+{
+  "detail": "Las credenciales de autenticación no se proveyeron."
+}

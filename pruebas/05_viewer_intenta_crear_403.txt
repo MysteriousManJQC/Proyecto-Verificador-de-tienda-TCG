@@ -1,0 +1,10 @@
+=== PETICIÓN ===
+curl -X POST http://127.0.0.1:8000/api/registros/ \
+  -H "Authorization: Token d6d5a71e..." \
+  -H "Content-Type: application/json" \
+  -d '{"nombre_carta": "Pikachu", "expansion": "Crown Zenith", "cantidad_solicitada": 1}'
+
+=== RESPUESTA (HTTP 403 Forbidden) ===
+{
+  "detail": "Usted no tiene permiso para realizar esta acción."
+}

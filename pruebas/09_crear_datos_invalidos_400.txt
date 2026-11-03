@@ -1,0 +1,12 @@
+=== PETICIÓN ===
+curl -X POST http://127.0.0.1:8000/api/registros/ \
+  -H "Authorization: Token 1c96d64d..." \
+  -H "Content-Type: application/json" \
+  -d '{"nombre_carta": "Venusaur", "expansion": "Base Set", "cantidad_solicitada": 99999999999999999999}'
+
+=== RESPUESTA (HTTP 400 Bad Request) ===
+{
+  "cantidad_solicitada": [
+    "La cantidad solicitada no puede superar 10000."
+  ]
+}

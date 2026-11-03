@@ -1,0 +1,28 @@
+=== PETICIÓN ===
+curl -X GET http://127.0.0.1:8000/api/registros/ \
+  -H "Authorization: Token d6d5a71e..."
+
+=== RESPUESTA (HTTP 200 OK) ===
+{
+  "count": 100,
+  "next": "http://127.0.0.1:8000/api/registros/?page=2",
+  "previous": null,
+  "results": [
+    {
+      "id": 1,
+      "nombre_carta": "Charizard",
+      "expansion": "Base Set",
+      "cantidad_solicitada": 1,
+      "resultado": "Se puede vender. Stock disponible: 5.",
+      "fecha": "2026-10-13T21:00:00Z"
+    },
+    {
+      "id": 2,
+      "nombre_carta": "Pikachu",
+      "expansion": "Crown Zenith",
+      "cantidad_solicitada": 1,
+      "resultado": "Se puede vender. Stock disponible: 25.",
+      "fecha": "2026-10-13T21:00:00Z"
+    }
+  ]
+}

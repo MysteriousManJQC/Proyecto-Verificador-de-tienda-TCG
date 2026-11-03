@@ -1,0 +1,15 @@
+=== PETICIÓN ===
+curl -X POST http://127.0.0.1:8000/api/registros/ \
+  -H "Authorization: Token dd496ff5..." \
+  -H "Content-Type: application/json" \
+  -d '{"nombre_carta": "Pikachu", "expansion": "Crown Zenith", "cantidad_solicitada": 2}'
+
+=== RESPUESTA (HTTP 201 Created) ===
+{
+  "id": 101,
+  "nombre_carta": "Pikachu",
+  "expansion": "Crown Zenith",
+  "cantidad_solicitada": 2,
+  "resultado": "Se puede vender. Stock disponible: 25.",
+  "fecha": "2026-11-02T16:00:00Z"
+}

@@ -1,0 +1,8 @@
+=== PETICIÓN ===
+curl -X GET http://127.0.0.1:8000/api/registros/999999/ \
+  -H "Authorization: Token 1c96d64d..."
+
+=== RESPUESTA (HTTP 404 Not Found) ===
+{
+  "detail": "No encontrado."
+}

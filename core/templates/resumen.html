@@ -1,0 +1,82 @@
+{% extends "base.html" %}
+
+{% block titulo %}Verificar Carta - Verificador TCG{% endblock %}
+
+{% block contenido %}
+    <h2 class="mb-4">🔍 Verificador de Cartas TCG</h2>
+
+    <div class="row justify-content-center">
+        <div class="col-md-5">
+            <div class="card shadow mb-4">
+                <div class="card-body">
+                    <form method="POST">
+                        {% csrf_token %}
+                        
+                        <div class="mb-3">
+                            <label class="form-label fw-bold">Juego de cartas:</label>
+                            <select name="juego" class="form-select" required>
+                                <option value="pokemon">Pokémon TCG</option>
+                                <option value="yugioh">Yu-Gi-Oh!</option>
+                                <option value="magic">Magic: The Gathering</option>
+                            </select>
+                        </div>
+
+                        <div class="mb-3">
+                            <label class="form-label fw-bold">Nombre de la carta:</label>
+                            <input type="text" name="nombre_carta" class="form-control" required>
+                        </div>
+                        
+                        <div class="mb-3">
+                            <label class="form-label fw-bold">Expansión:</label>
+                            <input type="text" name="expansion" class="form-control" required>
+                        </div>
+                        
+                        <div class="mb-3">
+                            <label class="form-label fw-bold">Cantidad a vender:</label>
+                            <input type="number" name="cantidad_solicitada" class="form-control" min="1" required>
+                        </div>
+                        
+                        <button type="submit" class="btn btn-primary w-100">Consultar</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+
+        <!-- Zona de resultado -->
+        {% if resultado %}
+        <div class="col-md-5">
+            <div class="card shadow text-center">
+                <div class="card-body">
+                    <h3>Resultado de la consulta:</h3>
+                    <p class="fs-5 fw-bold">{{ resultado }}</p>
+                    
+                    <!-- Zona de imagen -->
+                    {% if imagen_url %}
+                        <div class="mb-3">
+                            <a href="{{ tcgplayer_url|default:'https://www.tcgplayer.com' }}" target="_blank" title="Ver en TCGplayer">
+                                <img src="{{ imagen_url }}" alt="Imagen de la carta" 
+                                     class="img-fluid rounded shadow" style="max-width: 230px; transition: transform 0.2s;"
+                                     onmouseover="this.style.transform='scale(1.05)'"
+                                     onmouseout="this.style.transform='scale(1)'">
+                            </a>
+                        </div>
+                    {% else %}
+                        <p class="text-muted">(No se encontró imagen para esta carta en la base de datos de la API)</p>
+                    {% endif %}
+
+                    {% if precio_tcgplayer %}
+                    <div class="mt-2">
+                        <span class="badge bg-light text-dark border px-3 py-2 fs-6">
+                            🏷️ Precio TCGplayer: 
+                            <a href="{{ tcgplayer_url|default:'https://www.tcgplayer.com' }}" target="_blank" class="fw-bold text-success text-decoration-none">
+                                US$ {{ precio_tcgplayer }} 🔗
+                            </a>
+                        </span>
+                    </div>
+                    {% endif %}
+                </div>
+            </div>
+        </div>
+        {% endif %}
+    </div>
+{% endblock %}

@@ -1,0 +1,11 @@
+=== PETICIÓN ===
+curl -X POST http://127.0.0.1:8000/api/token/ \
+  -H "Content-Type: application/json" \
+  -d '{"username": "admin1", "password": "clave_incorrecta"}'
+
+=== RESPUESTA (HTTP 400 Bad Request) ===
+{
+  "non_field_errors": [
+    "No se puede iniciar sesión con las credenciales proporcionadas."
+  ]
+}
